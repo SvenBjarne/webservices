@@ -1,5 +1,5 @@
 
-const Note = require('../models/note.model.js');
+const Note = require('../models/user.model.js');
 
 exports.create = (req, res) => {
     if(!req.body.content) {
